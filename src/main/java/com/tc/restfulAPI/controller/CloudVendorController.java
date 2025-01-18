@@ -22,7 +22,6 @@ public class CloudVendorController {
     }
 
     //read specific cloud vendor details
-
     //this getCloudVenderDetails is custom-made response
     @GetMapping("{vendorId}")
     public ResponseEntity<Object> getCloudVendorDetails(@PathVariable("vendorId") String vendorId){
